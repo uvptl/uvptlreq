@@ -1,0 +1,24 @@
+{
+    "name": "uvptl/req",
+    "description": "HTTP Component",
+    "keywords": ["http", "request", "response"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Umesh Patel",
+            "email": "umesh@archisys.in",
+            "role": "Creator / Main Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Http\\": "src/"
+        }
+    }
+}
